@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-28T23:33:58.142642+02:00",
-  "count": 3116,
+  "generated_at": "2026-04-28T23:39:38.076743+02:00",
+  "count": 3117,
   "establishments": [
     {
       "id": 1602,
@@ -6617,7 +6617,7 @@
       "lon": 4.284176
     },
     {
-      "id": 3533,
+      "id": 6469,
       "name": "SPRL Art & Wine",
       "city": "Anhée",
       "type": "(non typé)",
@@ -6625,7 +6625,7 @@
       "lon": 4.854131
     },
     {
-      "id": 6469,
+      "id": 3533,
       "name": "SPRL Art & Wine",
       "city": "Anhée",
       "type": "(non typé)",
@@ -16697,7 +16697,7 @@
       "id": 10303,
       "name": "Funambule TABORA",
       "city": "Bruxelles",
-      "type": "(non typé)",
+      "type": "Service à table",
       "lat": 50.84817,
       "lon": 4.351441
     },
@@ -24455,6 +24455,15 @@
       "lat": 50.288841,
       "lon": 4.488853,
       "website": "http://www.laboucheedo2.be"
+    },
+    {
+      "id": 16345,
+      "name": "La Charcuterie",
+      "city": "Bruxelles",
+      "type": "(non typé)",
+      "lat": 50.826252,
+      "lon": 4.345092,
+      "website": "http://www.lacharcuterie.be"
     },
     {
       "id": 15965,
