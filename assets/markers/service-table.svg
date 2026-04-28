@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" aria-label="Service à table">
+  <circle cx="12" cy="12" r="11" fill="#7B133C" stroke="white" stroke-width="2"/>
+  <path d="M9 7v4a2 2 0 0 0 1.5 1.94V17h1V12.94A2 2 0 0 0 13 11V7h-.8v4a1.2 1.2 0 0 1-.6 1.04V7h-1v5.04A1.2 1.2 0 0 1 9.8 11V7H9z" fill="white"/>
+</svg>

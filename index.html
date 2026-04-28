@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nos références clients — URBANPOS</title>
+  <meta name="description" content="Découvrez les restaurants, bars, brasseries et commerces qui ont choisi URBANPOS comme solution de caisse en Belgique.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nos références clients — URBANPOS">
+  <meta property="og:description" content="La carte de tous les établissements HORECA équipés URBANPOS en Belgique.">
+  <meta property="og:url" content="https://references.urbanpos.be/">
+  <meta property="og:image" content="https://references.urbanpos.be/assets/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/svg+xml" href="assets/logo-urbanpos.svg">
+  <link rel="canonical" href="https://references.urbanpos.be/">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            urbanpos: {
+              primary: '#7B133C',
+              'primary-dark': '#310818',
+              accent: '#D4A853',
+              dark: '#142a2e',
+              bg: '#f8f6f3',
+              surface: '#f0f4f5',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-urbanpos-bg text-urbanpos-dark font-sans min-h-screen flex flex-col">
+
+  <header class="bg-white border-b border-urbanpos-surface px-4 md:px-8 py-3 flex items-center justify-between shadow-sm">
+    <a href="https://www.urbanpos.be/" class="flex items-center gap-3">
+      <img src="assets/logo-urbanpos.svg" alt="URBANPOS" class="h-8 w-auto">
+      <div class="hidden md:block">
+        <div class="text-xs uppercase tracking-widest text-urbanpos-primary">Références</div>
+        <div class="text-sm font-semibold text-urbanpos-dark">Nos clients en Belgique</div>
+      </div>
+    </a>
+    <div class="text-right">
+      <div id="count" class="text-2xl font-bold text-urbanpos-primary leading-none">—</div>
+      <div class="text-xs text-urbanpos-dark/60 uppercase tracking-wide">établissements</div>
+    </div>
+  </header>
+
+  <nav class="bg-white border-b border-urbanpos-surface px-4 md:px-8 py-2 flex flex-wrap gap-2 items-center">
+    <span class="text-xs uppercase tracking-wide text-urbanpos-dark/60 mr-2">Filtrer :</span>
+    <button data-filter="all" class="filter-chip filter-chip-active">Tous</button>
+    <button data-filter="Service à table" class="filter-chip" style="--chip-color:#7B133C">Service à table</button>
+    <button data-filter="Quick" class="filter-chip" style="--chip-color:#ea580c">Quick</button>
+    <button data-filter="Bar-Café" class="filter-chip" style="--chip-color:#D4A853">Bar / Café</button>
+    <button data-filter="Retail" class="filter-chip" style="--chip-color:#0f766e">Retail</button>
+  </nav>
+
+  <main class="flex-1 relative">
+    <div id="map" class="absolute inset-0"></div>
+    <div id="loading" class="absolute inset-0 flex items-center justify-center bg-urbanpos-bg/80 z-[500] pointer-events-none transition-opacity">
+      <div class="text-urbanpos-primary text-sm font-medium">Chargement de la carte…</div>
+    </div>
+  </main>
+
+  <footer class="bg-white border-t border-urbanpos-surface px-4 md:px-8 py-3 text-xs text-urbanpos-dark/60 flex flex-wrap items-center justify-between gap-2">
+    <div>
+      &copy; URBANPOS — Solutions de caisse pour l'HORECA et le retail.
+      <a href="https://www.urbanpos.be/" class="text-urbanpos-primary hover:underline ml-2">urbanpos.be</a>
+    </div>
+    <div>
+      Vous êtes client et souhaitez ne pas figurer ?
+      <a href="mailto:contact@urbanpos.be?subject=Retrait%20carte%20de%20r%C3%A9f%C3%A9rences" class="text-urbanpos-primary hover:underline">contact@urbanpos.be</a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
