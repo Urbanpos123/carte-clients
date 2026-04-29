@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-29T00:01:55.209521+02:00",
-  "count": 1306,
+  "generated_at": "2026-04-29T13:00:27.307266+02:00",
+  "count": 1260,
   "establishments": [
     {
       "id": 5353,
@@ -2295,223 +2295,6 @@
       "lon": 4.505824
     },
     {
-      "id": 1167,
-      "name": "OLD - COPHA SRL",
-      "city": "SAINT-GILLES",
-      "type": "(non typé)",
-      "lat": 50.823633,
-      "lon": 4.348043
-    },
-    {
-      "id": 1497,
-      "name": "OLD - GILPIC SRL",
-      "city": "Lobbes",
-      "type": "(non typé)",
-      "lat": 50.345093,
-      "lon": 4.264601
-    },
-    {
-      "id": 3851,
-      "name": "OLD - L&B Global Group SRL",
-      "city": "Ixelles",
-      "type": "(non typé)",
-      "lat": 50.83341,
-      "lon": 4.367209
-    },
-    {
-      "id": 4088,
-      "name": "OLD - Madj srl",
-      "city": "Overijse",
-      "type": "(non typé)",
-      "lat": 50.780775,
-      "lon": 4.515243
-    },
-    {
-      "id": 3898,
-      "name": "OLD - PREDATOR",
-      "city": "Brussel",
-      "type": "(non typé)",
-      "lat": 50.835545,
-      "lon": 4.342929
-    },
-    {
-      "id": 5726,
-      "name": "OLD - SRL SMARTIMMO",
-      "city": "Saint-Gilles",
-      "type": "(non typé)",
-      "lat": 50.831698,
-      "lon": 4.338241
-    },
-    {
-      "id": 1166,
-      "name": "OLD - U7 SRL",
-      "city": "Ottignies-Louvain-la-Neuve",
-      "type": "(non typé)",
-      "lat": 50.669421,
-      "lon": 4.611571
-    },
-    {
-      "id": 4112,
-      "name": "OLD - Vino Vroom Srl",
-      "city": "St Gilles",
-      "type": "(non typé)",
-      "lat": 50.825049,
-      "lon": 4.34436
-    },
-    {
-      "id": 1227,
-      "name": "OLD-3 D SNC",
-      "city": "Perwez",
-      "type": "(non typé)",
-      "lat": 50.628822,
-      "lon": 4.778047
-    },
-    {
-      "id": 3605,
-      "name": "OLD-BV WNS GROUP",
-      "city": "Schaarbeek",
-      "type": "(non typé)",
-      "lat": 50.871755,
-      "lon": 4.385035
-    },
-    {
-      "id": 3396,
-      "name": "OLD-CimdX",
-      "city": "Rixensart",
-      "type": "(non typé)",
-      "lat": 50.725037,
-      "lon": 4.514376
-    },
-    {
-      "id": 1408,
-      "name": "OLD-GSSD SRL",
-      "city": "Saint-Gilles",
-      "type": "(non typé)",
-      "lat": 50.83444,
-      "lon": 4.355255
-    },
-    {
-      "id": 1150,
-      "name": "OLD-KARTACHE",
-      "city": "ANDERLECHT",
-      "type": "(non typé)",
-      "lat": 50.836556,
-      "lon": 4.307383
-    },
-    {
-      "id": 4128,
-      "name": "OLD-Kol-invest",
-      "city": "Uccle",
-      "type": "(non typé)",
-      "lat": 50.789871,
-      "lon": 4.361378,
-      "photo": "assets/photos/4128.png?v=30ae2a3c01"
-    },
-    {
-      "id": 3816,
-      "name": "OLD-LE SOFTY Sprl",
-      "city": "Uccle",
-      "type": "(non typé)",
-      "lat": 50.791039,
-      "lon": 4.332016
-    },
-    {
-      "id": 1269,
-      "name": "OLD-LERITZ SA",
-      "city": "Ixelles",
-      "type": "(non typé)",
-      "lat": 50.833668,
-      "lon": 4.358746
-    },
-    {
-      "id": 1286,
-      "name": "OLD-O'BOEUF Srl",
-      "city": "VAUX-SOUS-CHEVREMONT",
-      "type": "(non typé)",
-      "lat": 50.592813,
-      "lon": 5.631982
-    },
-    {
-      "id": 5489,
-      "name": "OLD-Piggy'S Crabs",
-      "city": "Koksijde",
-      "type": "(non typé)",
-      "lat": 51.111753,
-      "lon": 2.679379
-    },
-    {
-      "id": 1419,
-      "name": "OLD-SEGLYNE BV",
-      "city": "Haaltert",
-      "type": "(non typé)",
-      "lat": 50.884658,
-      "lon": 3.994773
-    },
-    {
-      "id": 1136,
-      "name": "OLD-SHARING FOOD SPRL",
-      "city": "Ottignies-Louvain-la-Neuve",
-      "type": "(non typé)",
-      "lat": 50.669114,
-      "lon": 4.611253
-    },
-    {
-      "id": 1333,
-      "name": "OLD-SILVER TAVERN SRL",
-      "city": "Schaerbeek",
-      "type": "(non typé)",
-      "lat": 50.860925,
-      "lon": 4.384372
-    },
-    {
-      "id": 3759,
-      "name": "OLD-SRL VAMANA",
-      "city": "Tubize",
-      "type": "(non typé)",
-      "lat": 50.688837,
-      "lon": 4.185909
-    },
-    {
-      "id": 1339,
-      "name": "OLD-Singh, Mangal",
-      "city": "Seraing",
-      "type": "(non typé)",
-      "lat": 50.601236,
-      "lon": 5.515812
-    },
-    {
-      "id": 1212,
-      "name": "OLD-TRAITOREL SRL",
-      "city": "Ixelles",
-      "type": "(non typé)",
-      "lat": 50.807371,
-      "lon": 4.392273
-    },
-    {
-      "id": 1471,
-      "name": "OLD-Tout Bon Srl",
-      "city": "Brussel",
-      "type": "(non typé)",
-      "lat": 50.854968,
-      "lon": 4.363309
-    },
-    {
-      "id": 3848,
-      "name": "OLD-VEVE GROUPE",
-      "city": "Ixelles",
-      "type": "(non typé)",
-      "lat": 50.821557,
-      "lon": 4.359149
-    },
-    {
-      "id": 1442,
-      "name": "OLD-VICKY’S & CO SRL",
-      "city": "EVERE",
-      "type": "(non typé)",
-      "lat": 50.85933,
-      "lon": 4.416153
-    },
-    {
       "id": 1414,
       "name": "ONE PIECE SRL",
       "city": "Ottignies-Louvain-la-Neuve",
@@ -3791,16 +3574,6 @@
       "type": "(non typé)",
       "lat": 50.852196,
       "lon": 4.352906
-    },
-    {
-      "id": 1,
-      "name": "URBANPOS",
-      "city": "Lasne",
-      "type": "(non typé)",
-      "lat": 50.704701,
-      "lon": 4.432658,
-      "photo": "assets/photos/1.jpg?v=c73536d7e2",
-      "website": "http://urbanpos.be"
     },
     {
       "id": 3186,
@@ -5857,152 +5630,6 @@
       "lon": 4.303109
     },
     {
-      "id": 6758,
-      "name": "OLD - 3 Trees Group",
-      "city": "Watermael-Boitsfort",
-      "type": "(non typé)",
-      "lat": 50.79895,
-      "lon": 4.401659
-    },
-    {
-      "id": 6665,
-      "name": "OLD - Archy Cup Coffee",
-      "city": "Bruxelles",
-      "type": "(non typé)",
-      "lat": 50.823083,
-      "lon": 4.354037
-    },
-    {
-      "id": 6479,
-      "name": "OLD - BROD KITCHEN DELI SRL",
-      "city": "Ixelles",
-      "type": "(non typé)",
-      "lat": 50.818425,
-      "lon": 4.381793
-    },
-    {
-      "id": 9949,
-      "name": "OLD - Ctr Flagey(SRL)",
-      "city": "Bruxelles",
-      "type": "(non typé)",
-      "lat": 50.828209,
-      "lon": 4.370596
-    },
-    {
-      "id": 11597,
-      "name": "OLD - Jacques Pierre",
-      "city": "Ath",
-      "type": "(non typé)",
-      "lat": 50.635169,
-      "lon": 3.789949
-    },
-    {
-      "id": 7302,
-      "name": "OLD - Madikop",
-      "city": "Bruxelles",
-      "type": "(non typé)",
-      "lat": 50.839204,
-      "lon": 4.428667
-    },
-    {
-      "id": 6727,
-      "name": "OLD - Mummy Comes Here SRL",
-      "city": "Bruxelles",
-      "type": "(non typé)",
-      "lat": 50.852294,
-      "lon": 4.350999,
-      "photo": "assets/photos/6727.jpg?v=9c4ba56f8c"
-    },
-    {
-      "id": 8936,
-      "name": "OLD - Parrinello, Thomas",
-      "city": "Courcelles",
-      "type": "(non typé)",
-      "lat": 50.461311,
-      "lon": 4.371888
-    },
-    {
-      "id": 6690,
-      "name": "OLD- Sidorov Daniel",
-      "city": "Mechelen",
-      "type": "(non typé)",
-      "lat": 51.025675,
-      "lon": 4.484842
-    },
-    {
-      "id": 9399,
-      "name": "OLD-BV Agourram Services",
-      "city": "Halle",
-      "type": "(non typé)",
-      "lat": 50.733869,
-      "lon": 4.235557
-    },
-    {
-      "id": 6967,
-      "name": "OLD-Halles De Schaerbeek(ASBL)",
-      "city": "Bruxelles",
-      "type": "(non typé)",
-      "lat": 50.860061,
-      "lon": 4.370335
-    },
-    {
-      "id": 12090,
-      "name": "OLD-Italmangia",
-      "city": "Gent",
-      "type": "(non typé)",
-      "lat": 51.038892,
-      "lon": 3.710138
-    },
-    {
-      "id": 6777,
-      "name": "OLD-Jeux d'Hiver",
-      "city": "Bruxelles",
-      "type": "(non typé)",
-      "lat": 50.811543,
-      "lon": 4.373018,
-      "photo": "assets/photos/6777.png?v=e167886561"
-    },
-    {
-      "id": 6680,
-      "name": "OLD-Panini Lover(SComm)",
-      "city": "Fosses la ville",
-      "type": "(non typé)",
-      "lat": 50.396214,
-      "lon": 4.699412
-    },
-    {
-      "id": 9129,
-      "name": "OLD-SPRL SPRL Croque Bambou",
-      "city": "Quaregnon",
-      "type": "(non typé)",
-      "lat": 50.442739,
-      "lon": 3.864546
-    },
-    {
-      "id": 9380,
-      "name": "OLD-SRL Bentofood",
-      "city": "Brussel (Sint-Gillis)",
-      "type": "(non typé)",
-      "lat": 50.82792,
-      "lon": 4.359472
-    },
-    {
-      "id": 6358,
-      "name": "OLD-SRL SANELLO",
-      "city": "Namur",
-      "type": "(non typé)",
-      "lat": 50.462396,
-      "lon": 4.864394
-    },
-    {
-      "id": 10464,
-      "name": "OLD-W&S KITCHEN",
-      "city": "Ixelles",
-      "type": "(non typé)",
-      "lat": 50.816062,
-      "lon": 4.390578
-    },
-    {
       "id": 12062,
       "name": "Obiose Srl",
       "city": "Waterloo",
@@ -6042,6 +5669,14 @@
       "lat": 50.83146,
       "lon": 4.451737,
       "website": "http://www.milanotorino.eu"
+    },
+    {
+      "id": 9049,
+      "name": "PASTA GIANNI/I",
+      "city": "Mons",
+      "type": "(non typé)",
+      "lat": 50.455178,
+      "lon": 3.953243
     },
     {
       "id": 6842,
@@ -7704,16 +7339,6 @@
       "lon": 4.694464
     },
     {
-      "id": 12168,
-      "name": "Vinissimo",
-      "city": "Bruxelles",
-      "type": "(non typé)",
-      "lat": 50.841537,
-      "lon": 4.352654,
-      "photo": "assets/photos/12168.png?v=f471fec452",
-      "website": "http://www.vinissimo.lu"
-    },
-    {
       "id": 9614,
       "name": "Vinx, Michaël",
       "city": "Cerfontaine",
@@ -8296,6 +7921,14 @@
       "type": "(non typé)",
       "lat": 50.780901,
       "lon": 4.243337
+    },
+    {
+      "id": 16360,
+      "name": "Brunchissimo SRL",
+      "city": "Overijse",
+      "type": "(non typé)",
+      "lat": 50.793295,
+      "lon": 4.48216
     },
     {
       "id": 15376,
@@ -9807,22 +9440,6 @@
       "website": "http://www.munchiesgk.com"
     },
     {
-      "id": 12220,
-      "name": "OLD - Meghlaji Fady",
-      "city": "Audenarde",
-      "type": "(non typé)",
-      "lat": 50.845675,
-      "lon": 3.602408
-    },
-    {
-      "id": 12279,
-      "name": "OLD- Kokafood",
-      "city": "Charleroi",
-      "type": "(non typé)",
-      "lat": 50.391452,
-      "lon": 4.402951
-    },
-    {
       "id": 15279,
       "name": "Offida",
       "city": "Chaudfontaine",
@@ -10509,6 +10126,16 @@
       "lat": 51.185405,
       "lon": 3.565872,
       "website": "http://www.torenhof-eeklo.be"
+    },
+    {
+      "id": 12168,
+      "name": "Vinissimo",
+      "city": "Bruxelles",
+      "type": "(non typé)",
+      "lat": 50.841537,
+      "lon": 4.352654,
+      "photo": "assets/photos/12168.png?v=f471fec452",
+      "website": "http://www.vinissimo.lu"
     },
     {
       "id": 13682,
