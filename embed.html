@@ -147,12 +147,11 @@
     .cta:hover { background: var(--primary); }
     .cta svg { width: 14px; height: 14px; }
 
-    /* Dots inside the SVG */
+    /* Dots inside the SVG — uniform burgundy URBANPOS */
     .dot {
       fill: var(--primary);
-      opacity: 0.85;
+      opacity: 0.9;
     }
-    .dot.gold { fill: var(--accent); opacity: 1; }
 
     /* Subtle text shadow over dot crowd for readability */
     .count, .label-main {
@@ -268,9 +267,7 @@
             c.setAttribute('cx', (p[0] + jitter(i)).toFixed(2));
             c.setAttribute('cy', (p[1] + jitter(i + 7)).toFixed(2));
             c.setAttribute('r', '1.8');
-            // 1 dot in 30 is gold accent for subtle rhythm
-            if (i % 31 === 0) c.setAttribute('class', 'dot gold');
-            else c.setAttribute('class', 'dot');
+            c.setAttribute('class', 'dot');
             frag.appendChild(c);
           }
           g.appendChild(frag);
