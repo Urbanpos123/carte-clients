@@ -150,17 +150,9 @@
     /* Dots inside the SVG */
     .dot {
       fill: var(--primary);
-      transform-origin: center;
-      transform-box: fill-box;
+      opacity: 0.85;
     }
-    .dot.gold { fill: var(--accent); }
-    .dot.pulse {
-      animation: pulse 3.5s ease-in-out infinite;
-    }
-    @keyframes pulse {
-      0%, 100% { opacity: 0.55; transform: scale(1); }
-      50%      { opacity: 1.00; transform: scale(1.6); }
-    }
+    .dot.gold { fill: var(--accent); opacity: 1; }
 
     /* Subtle text shadow over dot crowd for readability */
     .count, .label-main {
@@ -180,8 +172,8 @@
       <svg viewBox="0 0 1000 800" preserveAspectRatio="xMidYMid meet"
            xmlns="http://www.w3.org/2000/svg">
         <defs>
-          <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-            <feGaussianBlur stdDeviation="6" result="blur"/>
+          <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+            <feGaussianBlur stdDeviation="2" result="blur"/>
             <feMerge>
               <feMergeNode in="blur"/>
               <feMergeNode in="SourceGraphic"/>
@@ -258,7 +250,7 @@
       const SVG_NS = 'http://www.w3.org/2000/svg';
       const g = document.getElementById('dots');
 
-      fetch('clients.json', { cache: 'no-cache' })
+      fetch('clients_all.json', { cache: 'no-cache' })
         .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
         .then(function (data) {
           const items = (data.establishments || []).filter(function (e) {
@@ -267,7 +259,7 @@
           // Update count
           document.getElementById('count').textContent =
             items.length.toLocaleString('fr-BE');
-          // Render dots
+          // Render dots — smaller, no animation, just dense static constellation
           const frag = document.createDocumentFragment();
           for (let i = 0; i < items.length; i++) {
             const e = items[i];
@@ -275,16 +267,10 @@
             const c = document.createElementNS(SVG_NS, 'circle');
             c.setAttribute('cx', (p[0] + jitter(i)).toFixed(2));
             c.setAttribute('cy', (p[1] + jitter(i + 7)).toFixed(2));
-            c.setAttribute('r', '3.4');
-            // 1 dot in 16 is gold accent
-            const isGold = i % 17 === 0;
-            // 1 dot in 8 pulses (stagger phase)
-            const pulses = i % 9 === 0;
-            let cls = 'dot';
-            if (isGold) cls += ' gold';
-            if (pulses) cls += ' pulse';
-            c.setAttribute('class', cls);
-            if (pulses) c.style.animationDelay = (i % 23) * 0.13 + 's';
+            c.setAttribute('r', '1.8');
+            // 1 dot in 30 is gold accent for subtle rhythm
+            if (i % 31 === 0) c.setAttribute('class', 'dot gold');
+            else c.setAttribute('class', 'dot');
             frag.appendChild(c);
           }
           g.appendChild(frag);
