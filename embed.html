@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nos clients — URBANPOS</title>
+  <meta name="description" content="Constellation des établissements équipés URBANPOS en Belgique.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #f8f6f3;
+      --primary: #7B133C;
+      --primary-dark: #310818;
+      --accent: #D4A853;
+      --dark: #142a2e;
+      --muted: rgba(20, 42, 46, 0.55);
+    }
+
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: var(--bg);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      color: var(--dark);
+      overflow: hidden;
+    }
+
+    /* Optional transparent background via ?transparent=1 in URL */
+    body.transparent { background: transparent; }
+
+    .stage {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      min-height: 420px;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+    }
+
+    /* Map fills the stage */
+    .map {
+      grid-area: 1 / 1;
+      width: 100%;
+      height: 100%;
+    }
+    .map svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    /* Editorial overlay */
+    .overlay {
+      grid-area: 1 / 1;
+      position: relative;
+      pointer-events: none;
+      padding: clamp(20px, 4vw, 56px);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .header {
+      display: flex;
+      align-items: flex-start;
+      gap: clamp(12px, 2vw, 28px);
+    }
+    .header .accent-bar {
+      width: 4px;
+      align-self: stretch;
+      background: var(--accent);
+      border-radius: 2px;
+      min-height: 70px;
+    }
+    .count {
+      font-size: clamp(48px, 9vw, 120px);
+      line-height: 0.95;
+      font-weight: 800;
+      color: var(--primary);
+      letter-spacing: -0.04em;
+      font-feature-settings: "tnum";
+    }
+    .label-block {
+      margin-top: 6px;
+    }
+    .label-eyebrow {
+      font-size: clamp(10px, 1vw, 12px);
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .label-main {
+      font-size: clamp(16px, 1.6vw, 22px);
+      font-weight: 600;
+      color: var(--dark);
+      line-height: 1.2;
+      max-width: 360px;
+    }
+
+    .footer {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+    .legend {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: clamp(10px, 1vw, 13px);
+      color: var(--muted);
+      letter-spacing: 0.05em;
+    }
+    .legend .dot-sample {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--primary);
+      box-shadow: 0 0 0 4px rgba(123, 19, 60, 0.12);
+    }
+
+    .cta {
+      pointer-events: auto;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 9px 14px;
+      border-radius: 999px;
+      background: var(--dark);
+      color: var(--bg);
+      text-decoration: none;
+      font-size: clamp(11px, 1vw, 13px);
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      transition: background 0.2s;
+    }
+    .cta:hover { background: var(--primary); }
+    .cta svg { width: 14px; height: 14px; }
+
+    /* Dots inside the SVG */
+    .dot {
+      fill: var(--primary);
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+    .dot.gold { fill: var(--accent); }
+    .dot.pulse {
+      animation: pulse 3.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.55; transform: scale(1); }
+      50%      { opacity: 1.00; transform: scale(1.6); }
+    }
+
+    /* Subtle text shadow over dot crowd for readability */
+    .count, .label-main {
+      text-shadow: 0 1px 0 rgba(248, 246, 243, 0.5);
+    }
+
+    @media (max-width: 600px) {
+      .stage { min-height: 360px; }
+      .header { flex-direction: row; }
+      .footer { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+  <div class="stage">
+    <div class="map" aria-label="Carte des références URBANPOS en Belgique">
+      <svg viewBox="0 0 1000 800" preserveAspectRatio="xMidYMid meet"
+           xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="6" result="blur"/>
+            <feMerge>
+              <feMergeNode in="blur"/>
+              <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+          </filter>
+        </defs>
+        <g id="dots" filter="url(#glow)"></g>
+      </svg>
+    </div>
+
+    <div class="overlay">
+      <div class="header">
+        <div class="accent-bar"></div>
+        <div>
+          <div class="label-eyebrow">URBANPOS · NOS RÉFÉRENCES</div>
+          <div class="count" id="count">—</div>
+          <div class="label-block">
+            <div class="label-main" id="label">établissements équipés en Belgique</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="legend">
+          <span class="dot-sample"></span>
+          <span>chaque point = un client URBANPOS</span>
+        </div>
+        <a class="cta" href="https://urbanpos123.github.io/carte-clients/" target="_blank" rel="noopener">
+          Voir la carte interactive
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"/>
+            <polyline points="12 5 19 12 12 19"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      'use strict';
+
+      // Optional transparent BG via ?transparent=1
+      if (new URLSearchParams(location.search).get('transparent') === '1') {
+        document.body.classList.add('transparent');
+      }
+
+      // Belgium bounds (slightly padded)
+      const BOUNDS = { lonW: 2.45, lonE: 6.55, latS: 49.45, latN: 51.55 };
+      const VIEW_W = 1000, VIEW_H = 800;
+      const PAD = 60;
+
+      function project(lon, lat) {
+        // Apply cosine correction so Belgium has correct aspect at this latitude
+        const midLat = (BOUNDS.latS + BOUNDS.latN) / 2;
+        const cos = Math.cos(midLat * Math.PI / 180);
+        const lonScale = (BOUNDS.lonE - BOUNDS.lonW) * cos;
+        const latScale = (BOUNDS.latN - BOUNDS.latS);
+        const usableW = VIEW_W - 2 * PAD;
+        const usableH = VIEW_H - 2 * PAD;
+        // Fit either width or height while keeping aspect ratio
+        const scale = Math.min(usableW / lonScale, usableH / latScale);
+        const cx = VIEW_W / 2, cy = VIEW_H / 2;
+        const x = cx + ((lon - (BOUNDS.lonW + BOUNDS.lonE) / 2) * cos) * scale;
+        const y = cy - ((lat - midLat)) * scale;
+        return [x, y];
+      }
+
+      function jitter(seed) {
+        // Tiny deterministic jitter to break perfect overlap of co-located dots
+        return (Math.sin(seed * 12.9898) * 43758.5453) % 1 * 1.5 - 0.75;
+      }
+
+      const SVG_NS = 'http://www.w3.org/2000/svg';
+      const g = document.getElementById('dots');
+
+      fetch('clients.json', { cache: 'no-cache' })
+        .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+        .then(function (data) {
+          const items = (data.establishments || []).filter(function (e) {
+            return typeof e.lat === 'number' && typeof e.lon === 'number';
+          });
+          // Update count
+          document.getElementById('count').textContent =
+            items.length.toLocaleString('fr-BE');
+          // Render dots
+          const frag = document.createDocumentFragment();
+          for (let i = 0; i < items.length; i++) {
+            const e = items[i];
+            const p = project(e.lon, e.lat);
+            const c = document.createElementNS(SVG_NS, 'circle');
+            c.setAttribute('cx', (p[0] + jitter(i)).toFixed(2));
+            c.setAttribute('cy', (p[1] + jitter(i + 7)).toFixed(2));
+            c.setAttribute('r', '3.4');
+            // 1 dot in 16 is gold accent
+            const isGold = i % 17 === 0;
+            // 1 dot in 8 pulses (stagger phase)
+            const pulses = i % 9 === 0;
+            let cls = 'dot';
+            if (isGold) cls += ' gold';
+            if (pulses) cls += ' pulse';
+            c.setAttribute('class', cls);
+            if (pulses) c.style.animationDelay = (i % 23) * 0.13 + 's';
+            frag.appendChild(c);
+          }
+          g.appendChild(frag);
+        })
+        .catch(function (err) {
+          console.error('Failed to load clients.json:', err);
+          document.getElementById('count').textContent = '—';
+          document.getElementById('label').textContent = 'Carte momentanément indisponible';
+        });
+    })();
+  </script>
+</body>
+</html>
