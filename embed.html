@@ -249,7 +249,7 @@
       const SVG_NS = 'http://www.w3.org/2000/svg';
       const g = document.getElementById('dots');
 
-      fetch('clients_all.json', { cache: 'no-cache' })
+      fetch('clients.json', { cache: 'no-cache' })
         .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
         .then(function (data) {
           const items = (data.establishments || []).filter(function (e) {
