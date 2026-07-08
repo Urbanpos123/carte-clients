@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-05T14:50:29.211593+02:00",
-  "count": 3134,
+  "generated_at": "2026-07-08T15:26:55.086784+02:00",
+  "count": 3139,
   "establishments": [
     {
       "id": 1602,
@@ -5991,7 +5991,7 @@
       "lon": 4.284176
     },
     {
-      "id": 6469,
+      "id": 3533,
       "name": "SPRL Art & Wine",
       "city": "Anhée",
       "type": "(non typé)",
@@ -5999,7 +5999,7 @@
       "lon": 4.854131
     },
     {
-      "id": 3533,
+      "id": 6469,
       "name": "SPRL Art & Wine",
       "city": "Anhée",
       "type": "(non typé)",
@@ -23575,6 +23575,14 @@
       "lon": 4.133555
     },
     {
+      "id": 17415,
+      "name": "Fauvarque Eloi",
+      "city": "Tournai",
+      "type": "(non typé)",
+      "lat": 50.652319,
+      "lon": 3.431876
+    },
+    {
       "id": 16118,
       "name": "Ferme des Coquelicots",
       "city": "Tournai",
@@ -24137,7 +24145,7 @@
       "website": "http://www.lacharcuterie.be"
     },
     {
-      "id": 16409,
+      "id": 16412,
       "name": "La Coop Alimentaire",
       "city": "Tournai",
       "type": "(non typé)",
@@ -24146,7 +24154,7 @@
       "website": "http://www.coopalimentaire.be"
     },
     {
-      "id": 16412,
+      "id": 16409,
       "name": "La Coop Alimentaire",
       "city": "Tournai",
       "type": "(non typé)",
@@ -24411,6 +24419,14 @@
       "lat": 50.342533,
       "lon": 4.471298,
       "photo": "assets/photos/17053.jpg?v=1d7438de1d"
+    },
+    {
+      "id": 17406,
+      "name": "M.P. Project Horéca",
+      "city": "Charleroi",
+      "type": "(non typé)",
+      "lat": 50.42167,
+      "lon": 4.447374
     },
     {
       "id": 16143,
@@ -25140,6 +25156,14 @@
       "lon": 4.385254
     },
     {
+      "id": 17389,
+      "name": "Sh Food Consult",
+      "city": "La Louvière",
+      "type": "(non typé)",
+      "lat": 50.486068,
+      "lon": 4.146021
+    },
+    {
       "id": 17119,
       "name": "Shape Resource Management Section",
       "city": "Shape",
@@ -25154,6 +25178,22 @@
       "type": "(non typé)",
       "lat": 50.848286,
       "lon": 4.35539
+    },
+    {
+      "id": 17402,
+      "name": "Sina Les Galeries",
+      "city": "Bruxelles",
+      "type": "(non typé)",
+      "lat": 50.821207,
+      "lon": 4.342602
+    },
+    {
+      "id": 17399,
+      "name": "Sinamisu Les Galeries",
+      "city": "Bruxelles",
+      "type": "(non typé)",
+      "lat": 50.821207,
+      "lon": 4.342602
     },
     {
       "id": 16223,
