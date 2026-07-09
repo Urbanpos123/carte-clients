@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-08T15:26:55.086784+02:00",
-  "count": 3139,
+  "generated_at": "2026-07-09T14:52:53.853260+02:00",
+  "count": 3142,
   "establishments": [
     {
       "id": 1602,
@@ -5991,7 +5991,7 @@
       "lon": 4.284176
     },
     {
-      "id": 3533,
+      "id": 6469,
       "name": "SPRL Art & Wine",
       "city": "Anhée",
       "type": "(non typé)",
@@ -5999,7 +5999,7 @@
       "lon": 4.854131
     },
     {
-      "id": 6469,
+      "id": 3533,
       "name": "SPRL Art & Wine",
       "city": "Anhée",
       "type": "(non typé)",
@@ -21519,6 +21519,14 @@
       "website": "http://www.munchiesgk.com"
     },
     {
+      "id": 15222,
+      "name": "Opera 8300 BV",
+      "city": "Knokke",
+      "type": "(non typé)",
+      "lat": 51.336351,
+      "lon": 3.327467
+    },
+    {
       "id": 14869,
       "name": "Opera Company",
       "city": "Liège",
@@ -21811,15 +21819,6 @@
       "type": "(non typé)",
       "lat": 50.816539,
       "lon": 4.425314
-    },
-    {
-      "id": 14525,
-      "name": "Relais de Pommard",
-      "city": "Stoumont",
-      "type": "(non typé)",
-      "lat": 50.426305,
-      "lon": 5.887526,
-      "website": "http://www.spa-francorchamps-hotel.com"
     },
     {
       "id": 13405,
@@ -23534,6 +23533,15 @@
       "lon": 4.206947
     },
     {
+      "id": 17420,
+      "name": "Enso Hospitality",
+      "city": "Knokke-Heist",
+      "type": "Quick",
+      "lat": 51.339531,
+      "lon": 3.284958,
+      "website": "http://www.ensodistricthotel.be"
+    },
+    {
       "id": 16415,
       "name": "F.K.H. Group",
       "city": "Bruxelles",
@@ -23682,6 +23690,14 @@
       "type": "(non typé)",
       "lat": 50.452041,
       "lon": 3.950564
+    },
+    {
+      "id": 17433,
+      "name": "Go To Padel",
+      "city": "Huy",
+      "type": "(non typé)",
+      "lat": 50.504276,
+      "lon": 5.236575
     },
     {
       "id": 15312,
@@ -23886,6 +23902,15 @@
       "type": "(non typé)",
       "lat": 50.833891,
       "lon": 4.402479
+    },
+    {
+      "id": 17423,
+      "name": "Ice of Queens",
+      "city": "Merelbeke-Melle",
+      "type": "Quick",
+      "lat": 50.996119,
+      "lon": 3.751426,
+      "website": "http://www.icecreamcars.com"
     },
     {
       "id": 16442,
@@ -24145,7 +24170,7 @@
       "website": "http://www.lacharcuterie.be"
     },
     {
-      "id": 16412,
+      "id": 16409,
       "name": "La Coop Alimentaire",
       "city": "Tournai",
       "type": "(non typé)",
@@ -24154,7 +24179,7 @@
       "website": "http://www.coopalimentaire.be"
     },
     {
-      "id": 16409,
+      "id": 16412,
       "name": "La Coop Alimentaire",
       "city": "Tournai",
       "type": "(non typé)",
@@ -24768,14 +24793,6 @@
       "lon": 4.363309
     },
     {
-      "id": 15222,
-      "name": "Opera 8300 BV",
-      "city": "Knokke",
-      "type": "(non typé)",
-      "lat": 51.336351,
-      "lon": 3.327467
-    },
-    {
       "id": 15510,
       "name": "Outdoor Camping Barvaux",
       "city": "Durbuy",
@@ -24851,6 +24868,14 @@
       "type": "(non typé)",
       "lat": 49.721234,
       "lon": 5.618303
+    },
+    {
+      "id": 17435,
+      "name": "Phil The Beat",
+      "city": "Ham-sur-Heure-Nalinnes",
+      "type": "(non typé)",
+      "lat": 50.300438,
+      "lon": 4.389007
     },
     {
       "id": 15390,
