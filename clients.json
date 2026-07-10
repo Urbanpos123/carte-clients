@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-09T14:52:53.853260+02:00",
-  "count": 3142,
+  "generated_at": "2026-07-10T07:16:20.253403+02:00",
+  "count": 3143,
   "establishments": [
     {
       "id": 1602,
@@ -5991,7 +5991,7 @@
       "lon": 4.284176
     },
     {
-      "id": 6469,
+      "id": 3533,
       "name": "SPRL Art & Wine",
       "city": "Anhée",
       "type": "(non typé)",
@@ -5999,7 +5999,7 @@
       "lon": 4.854131
     },
     {
-      "id": 3533,
+      "id": 6469,
       "name": "SPRL Art & Wine",
       "city": "Anhée",
       "type": "(non typé)",
@@ -16449,14 +16449,6 @@
       "lon": 4.374514
     },
     {
-      "id": 11987,
-      "name": "Le Villance",
-      "city": "Bruxelles",
-      "type": "Service à table",
-      "lat": 50.8167,
-      "lon": 4.425715
-    },
-    {
       "id": 11984,
       "name": "Le Villance",
       "city": "Bruxelles",
@@ -16465,6 +16457,14 @@
       "lon": 4.425715,
       "photo": "assets/photos/11984.png?v=fad221ac6e",
       "website": "http://www.levillance.be"
+    },
+    {
+      "id": 11987,
+      "name": "Le Villance",
+      "city": "Bruxelles",
+      "type": "Service à table",
+      "lat": 50.8167,
+      "lon": 4.425715
     },
     {
       "id": 9821,
@@ -23609,6 +23609,15 @@
       "lon": 4.115524
     },
     {
+      "id": 17445,
+      "name": "Fievez-Cadet",
+      "city": "Menen",
+      "type": "(non typé)",
+      "lat": 50.78815,
+      "lon": 3.154384,
+      "website": "http://www.lagoa.be"
+    },
+    {
       "id": 16847,
       "name": "Friterie Chez Yani",
       "city": "La Louvière",
@@ -24170,7 +24179,7 @@
       "website": "http://www.lacharcuterie.be"
     },
     {
-      "id": 16409,
+      "id": 16412,
       "name": "La Coop Alimentaire",
       "city": "Tournai",
       "type": "(non typé)",
@@ -24179,7 +24188,7 @@
       "website": "http://www.coopalimentaire.be"
     },
     {
-      "id": 16412,
+      "id": 16409,
       "name": "La Coop Alimentaire",
       "city": "Tournai",
       "type": "(non typé)",
@@ -25270,20 +25279,20 @@
       "lon": 4.36227
     },
     {
+      "id": 17333,
+      "name": "The Friendly Bar",
+      "city": "Mons",
+      "type": "(non typé)",
+      "lat": 50.452892,
+      "lon": 3.951904
+    },
+    {
       "id": 16700,
       "name": "The Sandwich Club",
       "city": "Bruxelles",
       "type": "(non typé)",
       "lat": 50.838402,
       "lon": 4.372664
-    },
-    {
-      "id": 17335,
-      "name": "The friendly Bar",
-      "city": "Mons",
-      "type": "Bar-Café",
-      "lat": 50.452892,
-      "lon": 3.951904
     },
     {
       "id": 17313,
