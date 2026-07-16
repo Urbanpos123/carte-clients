@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-10T07:16:20.253403+02:00",
-  "count": 3143,
+  "generated_at": "2026-07-16T21:11:45.362356+02:00",
+  "count": 3164,
   "establishments": [
     {
       "id": 1602,
@@ -4195,14 +4195,6 @@
       "lon": 4.373579
     },
     {
-      "id": 6345,
-      "name": "Capital 9 Srl",
-      "city": "Wavre",
-      "type": "(non typé)",
-      "lat": 50.737722,
-      "lon": 4.581542
-    },
-    {
       "id": 4693,
       "name": "Caroni SRL",
       "city": "Bruxelles",
@@ -5202,7 +5194,7 @@
     },
     {
       "id": 3499,
-      "name": "La Pizza Valenza",
+      "name": "La Pizza da Salvadore",
       "city": "Bruxelles",
       "type": "Service à table",
       "lat": 50.848206,
@@ -5265,14 +5257,6 @@
       "type": "Service à table",
       "lat": 50.840458,
       "lon": 4.400635
-    },
-    {
-      "id": 2554,
-      "name": "Laurent et Patricia Morlanwez",
-      "city": "Morlanwelz",
-      "type": "Quick",
-      "lat": 50.458956,
-      "lon": 4.269382
     },
     {
       "id": 4143,
@@ -5706,6 +5690,14 @@
       "type": "(non typé)",
       "lat": 50.519014,
       "lon": 5.240471
+    },
+    {
+      "id": 6345,
+      "name": "OLD-Capital 9 Srl",
+      "city": "Wavre",
+      "type": "(non typé)",
+      "lat": 50.737722,
+      "lon": 4.581542
     },
     {
       "id": 3338,
@@ -10697,6 +10689,14 @@
       "website": "http://www.restaurantbelga.be"
     },
     {
+      "id": 9047,
+      "name": "Sonevilaysack, Sourigna",
+      "city": "Ganshoren",
+      "type": "(non typé)",
+      "lat": 50.873562,
+      "lon": 4.308943
+    },
+    {
       "id": 8802,
       "name": "Sosson, Thierry",
       "city": "Léglise",
@@ -11905,6 +11905,14 @@
       "type": "(non typé)",
       "lat": 50.888394,
       "lon": 4.450386
+    },
+    {
+      "id": 9555,
+      "name": "Gabrys, Stéphane",
+      "city": "Montigny-le-Tilleul",
+      "type": "(non typé)",
+      "lat": 50.362025,
+      "lon": 4.388795
     },
     {
       "id": 9102,
@@ -14460,14 +14468,6 @@
       "lon": 4.164774
     },
     {
-      "id": 9047,
-      "name": "Sonevilaysack, Sourigna",
-      "city": "Ganshoren",
-      "type": "(non typé)",
-      "lat": 50.873562,
-      "lon": 4.308943
-    },
-    {
       "id": 9459,
       "name": "Sprl Efe-20",
       "city": "Gilly",
@@ -14867,6 +14867,14 @@
       "lat": 50.448759,
       "lon": 3.949213,
       "website": "http://www.donrolls.be"
+    },
+    {
+      "id": 12073,
+      "name": "ABC.Com",
+      "city": "Bruxelles",
+      "type": "(non typé)",
+      "lat": 50.847681,
+      "lon": 4.36216
     },
     {
       "id": 9739,
@@ -15917,14 +15925,6 @@
       "lon": 4.313743
     },
     {
-      "id": 9555,
-      "name": "Gabrys, Stéphane",
-      "city": "Montigny-le-Tilleul",
-      "type": "(non typé)",
-      "lat": 50.362025,
-      "lon": 4.388795
-    },
-    {
       "id": 11552,
       "name": "Galasso Chiara",
       "city": "Overijse",
@@ -16449,6 +16449,14 @@
       "lon": 4.374514
     },
     {
+      "id": 11987,
+      "name": "Le Villance",
+      "city": "Bruxelles",
+      "type": "Service à table",
+      "lat": 50.8167,
+      "lon": 4.425715
+    },
+    {
       "id": 11984,
       "name": "Le Villance",
       "city": "Bruxelles",
@@ -16457,14 +16465,6 @@
       "lon": 4.425715,
       "photo": "assets/photos/11984.png?v=fad221ac6e",
       "website": "http://www.levillance.be"
-    },
-    {
-      "id": 11987,
-      "name": "Le Villance",
-      "city": "Bruxelles",
-      "type": "Service à table",
-      "lat": 50.8167,
-      "lon": 4.425715
     },
     {
       "id": 9821,
@@ -18639,7 +18639,7 @@
     },
     {
       "id": 9933,
-      "name": "hendrik industrie",
+      "name": "hendrik Société caisse",
       "city": "Lasne",
       "type": "(non typé)",
       "lat": 50.682389,
@@ -18781,14 +18781,6 @@
       "type": "(non typé)",
       "lat": 50.429764,
       "lon": 3.941743
-    },
-    {
-      "id": 12073,
-      "name": "ABC.Com",
-      "city": "Bruxelles",
-      "type": "(non typé)",
-      "lat": 50.847681,
-      "lon": 4.36216
     },
     {
       "id": 14430,
@@ -19603,6 +19595,14 @@
       "lat": 50.692459,
       "lon": 5.853762,
       "website": "http://www.toufrais.be"
+    },
+    {
+      "id": 15228,
+      "name": "Ctrnamur",
+      "city": "Namur",
+      "type": "(non typé)",
+      "lat": 50.46866,
+      "lon": 4.862528
     },
     {
       "id": 14069,
@@ -22982,16 +22982,6 @@
       "lon": 3.606631
     },
     {
-      "id": 16101,
-      "name": "Brasserie Dupont",
-      "city": "Leuze-en-Hainaut",
-      "type": "(non typé)",
-      "lat": 50.572109,
-      "lon": 3.65107,
-      "photo": "assets/photos/16101.jpg?v=3c540b768f",
-      "website": "http://www.brasserie-dupont.com"
-    },
-    {
       "id": 17150,
       "name": "Brasserie Francois",
       "city": "Namur",
@@ -23000,6 +22990,14 @@
       "lon": 4.86047,
       "photo": "assets/photos/17150.jpg?v=3bb4ddc03d",
       "website": "http://www.brasseriefrancois.be"
+    },
+    {
+      "id": 17515,
+      "name": "Bresmal Clément",
+      "city": "Aubange",
+      "type": "(non typé)",
+      "lat": 49.56271,
+      "lon": 5.793187
     },
     {
       "id": 15309,
@@ -23137,6 +23135,15 @@
       "website": "http://www.cemapassion.com"
     },
     {
+      "id": 17465,
+      "name": "Cf3m Services",
+      "city": "Roosdaal",
+      "type": "(non typé)",
+      "lat": 50.832118,
+      "lon": 4.090803,
+      "photo": "assets/photos/17465.jpg?v=f2239ea782"
+    },
+    {
       "id": 17093,
       "name": "Chahibe Services",
       "city": "Bruxelles",
@@ -23194,6 +23201,14 @@
       "lat": 50.608263,
       "lon": 4.135599,
       "photo": "assets/photos/16489.jpg?v=ef7a76fa32"
+    },
+    {
+      "id": 17502,
+      "name": "Chez Vivi Traiteur",
+      "city": "Gerpinnes",
+      "type": "(non typé)",
+      "lat": 50.377582,
+      "lon": 4.46804
     },
     {
       "id": 15417,
@@ -23260,14 +23275,6 @@
       "lon": 4.278384
     },
     {
-      "id": 15228,
-      "name": "Ctrnamur",
-      "city": "Namur",
-      "type": "(non typé)",
-      "lat": 50.46866,
-      "lon": 4.862528
-    },
-    {
       "id": 15783,
       "name": "Cubyspa",
       "city": "Anderlecht",
@@ -23307,6 +23314,14 @@
       "type": "(non typé)",
       "lat": 50.456413,
       "lon": 4.43125
+    },
+    {
+      "id": 17534,
+      "name": "Da Pina",
+      "city": "Dinant",
+      "type": "(non typé)",
+      "lat": 50.238094,
+      "lon": 4.906972
     },
     {
       "id": 16001,
@@ -23465,6 +23480,14 @@
       "lat": 50.561985,
       "lon": 4.626375,
       "website": "http://www.dumontpartners.be"
+    },
+    {
+      "id": 17524,
+      "name": "Dupont Experiences",
+      "city": "Leuze-en-Hainaut",
+      "type": "(non typé)",
+      "lat": 50.572109,
+      "lon": 3.65107
     },
     {
       "id": 16888,
@@ -23675,6 +23698,14 @@
       "lat": 50.36784,
       "lon": 4.469638,
       "website": "http://www.lelab.be"
+    },
+    {
+      "id": 17566,
+      "name": "Gaziano Maurizio",
+      "city": "La Louvière",
+      "type": "(non typé)",
+      "lat": 50.477378,
+      "lon": 4.222568
     },
     {
       "id": 16669,
@@ -24340,6 +24371,14 @@
       "lon": 4.309326
     },
     {
+      "id": 15453,
+      "name": "Le Side",
+      "city": "Ciney",
+      "type": "(non typé)",
+      "lat": 50.296022,
+      "lon": 5.10003
+    },
+    {
       "id": 16274,
       "name": "Le Snack De La Douane - Momignies",
       "city": "Momignies",
@@ -24436,6 +24475,14 @@
       "type": "(non typé)",
       "lat": 50.609468,
       "lon": 5.554355
+    },
+    {
+      "id": 17558,
+      "name": "Lorent Julien",
+      "city": "Namur",
+      "type": "(non typé)",
+      "lat": 50.422644,
+      "lon": 4.896259
     },
     {
       "id": 16601,
@@ -24539,6 +24586,14 @@
       "lon": 3.821075,
       "photo": "assets/photos/16354.png?v=d11992d4ee",
       "website": "http://www.makimaki.be"
+    },
+    {
+      "id": 17508,
+      "name": "Mamy Francine",
+      "city": "Chaumont-Gistoux",
+      "type": "(non typé)",
+      "lat": 50.704516,
+      "lon": 4.64934
     },
     {
       "id": 15392,
@@ -24769,6 +24824,16 @@
       "website": "http://www.oreillys.com"
     },
     {
+      "id": 16101,
+      "name": "OLD-Brasserie Dupont",
+      "city": "Leuze-en-Hainaut",
+      "type": "(non typé)",
+      "lat": 50.572109,
+      "lon": 3.65107,
+      "photo": "assets/photos/16101.jpg?v=3c540b768f",
+      "website": "http://www.brasserie-dupont.com"
+    },
+    {
       "id": 15666,
       "name": "OLD-Friterie Chez Anto & Luigi",
       "city": "La Louvière",
@@ -24954,14 +25019,6 @@
       "lon": 4.322309
     },
     {
-      "id": 15453,
-      "name": "Projet le side",
-      "city": "Ciney",
-      "type": "(non typé)",
-      "lat": 50.296022,
-      "lon": 5.10003
-    },
-    {
       "id": 16190,
       "name": "Proximus SA / NV",
       "city": "Bruxelles",
@@ -25013,6 +25070,14 @@
       "lat": 50.857729,
       "lon": 4.375865,
       "photo": "assets/photos/15644.jpg?v=c4ef1de1a1"
+    },
+    {
+      "id": 17569,
+      "name": "Rabo Michèle",
+      "city": "Froidchapelle",
+      "type": "(non typé)",
+      "lat": 50.161949,
+      "lon": 4.346996
     },
     {
       "id": 15551,
@@ -25238,6 +25303,14 @@
       "lon": 5.512343
     },
     {
+      "id": 17512,
+      "name": "Snackez-vous",
+      "city": "Aiseau-Presles",
+      "type": "(non typé)",
+      "lat": 50.417712,
+      "lon": 4.574739
+    },
+    {
       "id": 16103,
       "name": "Sohomons",
       "city": "Mons",
@@ -25277,6 +25350,14 @@
       "type": "(non typé)",
       "lat": 50.837349,
       "lon": 4.36227
+    },
+    {
+      "id": 17504,
+      "name": "Taverne La Colline",
+      "city": "Virton",
+      "type": "(non typé)",
+      "lat": 49.5804,
+      "lon": 5.547665
     },
     {
       "id": 17333,
@@ -25442,6 +25523,14 @@
       "lon": 4.428964
     },
     {
+      "id": 17528,
+      "name": "Warlord Ath",
+      "city": "Tournai",
+      "type": "(non typé)",
+      "lat": 50.592152,
+      "lon": 3.387797
+    },
+    {
       "id": 15573,
       "name": "Wein Thomas",
       "city": "Soumagne",
@@ -25525,6 +25614,86 @@
       "lat": 50.745046,
       "lon": 3.217137,
       "website": "http://www.lescale-menen.com"
+    },
+    {
+      "id": 16337,
+      "name": "test",
+      "city": "Spontin",
+      "type": "(non typé)",
+      "lat": 50.321803,
+      "lon": 5.004467
+    },
+    {
+      "id": 16531,
+      "name": "test",
+      "city": "Watermael-Boitsfort",
+      "type": "(non typé)",
+      "lat": 50.792927,
+      "lon": 4.423492
+    },
+    {
+      "id": 16475,
+      "name": "test SRL",
+      "city": "Watermael-Boitsfort",
+      "type": "(non typé)",
+      "lat": 50.808186,
+      "lon": 4.403674
+    },
+    {
+      "id": 16315,
+      "name": "test SRL",
+      "city": "watermael Boitsfort",
+      "type": "(non typé)",
+      "lat": 50.808186,
+      "lon": 4.403674
+    },
+    {
+      "id": 16319,
+      "name": "test SRL",
+      "city": "watermael Boitsfort",
+      "type": "(non typé)",
+      "lat": 50.808186,
+      "lon": 4.403674
+    },
+    {
+      "id": 16577,
+      "name": "test SRL",
+      "city": "Watermael-Boitsfort",
+      "type": "(non typé)",
+      "lat": 50.808186,
+      "lon": 4.403674
+    },
+    {
+      "id": 16500,
+      "name": "test SRL",
+      "city": "Watermael-Boitsfort",
+      "type": "(non typé)",
+      "lat": 50.808186,
+      "lon": 4.403674
+    },
+    {
+      "id": 17493,
+      "name": "test SRL manu",
+      "city": "Watermael-Boitsfort",
+      "type": "(non typé)",
+      "lat": 50.808186,
+      "lon": 4.403674
+    },
+    {
+      "id": 17473,
+      "name": "test SRL manu",
+      "city": "Watermael-Boitsfort",
+      "type": "(non typé)",
+      "lat": 50.808186,
+      "lon": 4.403674
+    },
+    {
+      "id": 16280,
+      "name": "test jyp SRL",
+      "city": "lasne",
+      "type": "(non typé)",
+      "lat": 50.704701,
+      "lon": 4.432658
     }
   ]
 }
